@@ -31,7 +31,7 @@ const Sidebar = ({data, searchTerm, setSearchTerm   }) => {
 
         <p>
         
-            Unassigned Jobs
+            Unassigned Job
         </p>
         <hr/>
         <button  style={{backgroundColor:'#ffd622', borderRadius:'10px', padding:'8px'}}
