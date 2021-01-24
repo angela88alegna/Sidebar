@@ -6,13 +6,16 @@ import response from './response.json'
 
 
 const App = () => {
+
+   
     const [data, setData]= useState(response)
 
+    const[searchTerm, setSearchTerm]= useState('')
 
     return (
         <div>
        
-            <Sidebar data={data}/>
+            <Sidebar searchTerm={searchTerm} setSearchTerm={setSearchTerm} data={data} />
         </div>
     )
 }
